@@ -16,7 +16,7 @@ export default function FlyFastNavbar() {
 
           {/* Logo */}
           <div  className="flex items-center space-x-2">
-            <img className="h-[50px]" src={logo} alt="" />
+            <img className="h-10" src={logo} alt="" />
           </div>
 
           {/* Desktop Menu */}
@@ -77,7 +77,7 @@ export default function FlyFastNavbar() {
             </NavLink>
 
             <NavLink to="/be-rider">
-              <button className="px-5 py-2 rounded-lg bg-[#FF7A00] text-white font-semibold hover:bg-[#e66b00]">
+              <button className="px-5 py-2 rounded-lg bg-[#ff7a00] text-white font-semibold hover:bg-[#e66b00]">
                 Be a Rider
               </button>
             </NavLink>

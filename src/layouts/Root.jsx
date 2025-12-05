@@ -5,9 +5,11 @@ import FlyFastFooter from '../pages/shared/Footer';
 
 const Root = () => {
     return (
-        <div>
+        <div className='flex flex-col min-h-screen'>
             <FlyFastNavbar></FlyFastNavbar>
-            <Outlet></Outlet>
+            <div className='grow'>
+                <Outlet></Outlet>
+            </div>
             <FlyFastFooter></FlyFastFooter>
         </div>
     );
