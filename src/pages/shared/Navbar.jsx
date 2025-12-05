@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import logo from '/assests/logo.png'
 
 export default function FlyFastNavbar() {
@@ -16,7 +16,7 @@ export default function FlyFastNavbar() {
 
           {/* Logo */}
           <div  className="flex items-center space-x-2">
-            <img className="h-10" src={logo} alt="" />
+            <Link to={'/'}><img className="h-10" src={logo} alt="" /></Link>
           </div>
 
           {/* Desktop Menu */}
