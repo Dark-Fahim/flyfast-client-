@@ -70,7 +70,7 @@ export default function FlyFastNavbar() {
 
           {/* Buttons */}
           <div className="hidden md:flex items-center space-x-3">
-            <NavLink to="/signin">
+            <NavLink to="/login">
               <button className="px-5 py-2 rounded-lg border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700">
                 Sign In
               </button>
